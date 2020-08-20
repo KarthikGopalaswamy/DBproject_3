@@ -1,0 +1,5 @@
+C:\Users\karthik.gopalaswamy\OneDrive - Education First\Documents\Visual Studio 2015\Projects\DatabaseProject_4\DatabaseProject_4\bin\Debug\DatabaseProject_4.dacpac
+C:\Users\karthik.gopalaswamy\OneDrive - Education First\Documents\Visual Studio 2015\Projects\DatabaseProject_4\DatabaseProject_4\bin\Debug\DatabaseProject_4.dll
+C:\Users\karthik.gopalaswamy\OneDrive - Education First\Documents\Visual Studio 2015\Projects\DatabaseProject_4\DatabaseProject_4\bin\Debug\DatabaseProject_4.pdb
+C:\Users\karthik.gopalaswamy\OneDrive - Education First\Documents\Visual Studio 2015\Projects\DatabaseProject_4\DatabaseProject_4\obj\Debug\DatabaseProject_4.dll
+C:\Users\karthik.gopalaswamy\OneDrive - Education First\Documents\Visual Studio 2015\Projects\DatabaseProject_4\DatabaseProject_4\obj\Debug\DatabaseProject_4.pdb

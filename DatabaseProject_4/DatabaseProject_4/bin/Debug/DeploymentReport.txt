@@ -1,0 +1,50 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [RSExecRole] (Role)
+       Role Membership: <unnamed> (Role Membership)
+       [RSExecRole] (Schema)
+       [NT AUTHORITY\NETWORK SERVICE] (User)
+       Role Membership: <unnamed> (Role Membership)
+       [NT AUTHORITY\NETWORK SERVICE] (Schema)
+       [dbo].[ChunkData] (Table)
+       [dbo].[ChunkData].[IX_ChunkData] (Index)
+       [dbo].[ChunkSegmentMapping] (Table)
+       [dbo].[ChunkSegmentMapping].[UNIQ_ChunkId_StartByte] (Index)
+       [dbo].[ChunkSegmentMapping].[IX_ChunkSegmentMapping_SegmentId] (Index)
+       [dbo].[ExecutionCache] (Table)
+       [dbo].[ExecutionCache].[IX_ExecutionCache] (Index)
+       [dbo].[ExecutionCache].[IX_SnapshotDataID] (Index)
+       [dbo].[PersistedStream] (Table)
+       [dbo].[Segment] (Table)
+       [dbo].[Segment].[IX_SegmentMetadata] (Index)
+       [dbo].[SegmentedChunk] (Table)
+       [dbo].[SegmentedChunk].[IX_ChunkId_SnapshotDataId] (Index)
+       [dbo].[SegmentedChunk].[UNIQ_SnapshotChunkMapping] (Index)
+       [dbo].[SessionData] (Table)
+       [dbo].[SessionData].[IDX_SessionData] (Index)
+       [dbo].[SessionData].[IX_SessionCleanup] (Index)
+       [dbo].[SessionData].[IX_SessionSnapshotID] (Index)
+       [dbo].[SessionLock] (Table)
+       [dbo].[SessionLock].[IDX_SessionLock] (Index)
+       [dbo].[SnapshotData] (Table)
+       [dbo].[SnapshotData].[IX_SnapshotCleaning] (Index)
+       [dbo].[SnapshotData].[IS_SnapshotExpiration] (Index)
+       [dbo].[DF_Segment_SegmentId] (Default Constraint)
+       [dbo].[DF_SegmentedChunk_ChunkId] (Default Constraint)
+       Default Constraint: unnamed constraint on [dbo].[SnapshotData] (Default Constraint)
+       [dbo].[Positive_ActualByteCount] (Check Constraint)
+       [dbo].[Positive_LogicalByteCount] (Check Constraint)
+       [dbo].[Positive_StartByte] (Check Constraint)
+       [dbo].[GetDBVersion] (Procedure)
+
+** Supporting actions
