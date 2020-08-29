@@ -8,6 +8,7 @@
     [MimeType]       NVARCHAR (260)   NULL,
     [Content]        IMAGE            NULL,
     [empname] INT NULL, 
+    [Name] NVARCHAR(50) NULL, 
     CONSTRAINT [PK_ChunkData] PRIMARY KEY NONCLUSTERED ([ChunkID] ASC)
 );
 
